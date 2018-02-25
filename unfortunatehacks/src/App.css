@@ -1,28 +1,43 @@
 .App {
   text-align: center;
+  background-image: url("./Green Hall.png") ;
+			background-position: center center;
+			background-repeat:  no-repeat;
+			background-attachment: fixed;
+      background-size:  cover;
+      height: fill;
 }
 
 .App-logo {
-  animation: App-logo-spin infinite 20s linear;
-  height: 80px;
+  animation: App-logo-spin infinite 15s linear;
+  height: 200px;
 }
 
 .App-header {
-  background-color: #222;
-  height: 150px;
-  padding: 20px;
+  padding: 15px;
   color: white;
+  font-style: bold;
 }
 
 .App-title {
-  font-size: 1.5em;
-}
-
-.App-intro {
-  font-size: large;
+  font-size: 2.5em;
+  color: white;
 }
 
 @keyframes App-logo-spin {
   from { transform: rotate(0deg); }
   to { transform: rotate(360deg); }
+}
+
+button{
+  background: #0074FF;
+  border-radius: 28px;
+  border-color: black;
+  color: #ffffff;
+  font-size: 25px;
+  padding: 10px 20px;
+}
+
+button:hover{
+  background-image: linear-gradient(to bottom, #30A6F8, #142CB2);
 }

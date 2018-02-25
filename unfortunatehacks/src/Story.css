@@ -1,0 +1,17 @@
+.choice{
+  background: #0074FF;
+  border-radius: 28px;
+  border-color: black;
+  color: #ffffff;
+  font-size: 20px;
+  padding: 10px 20px;
+  margin: 10px;
+  opacity: 1;
+  }
+
+  .Story{
+    color: black;
+    background-color: #ffffff;
+    opacity: 0.85;
+    padding: 20pt;
+  }
