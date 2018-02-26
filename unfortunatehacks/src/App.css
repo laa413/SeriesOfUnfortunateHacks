@@ -5,16 +5,16 @@
 			background-repeat:  no-repeat;
 			background-attachment: fixed;
       background-size:  cover;
-      height: fill;
+      height:fill;
 }
 
 .App-logo {
   animation: App-logo-spin infinite 15s linear;
-  height: 200px;
+  height: 170px;
 }
 
 .App-header {
-  padding: 15px;
+  padding: 7px;
   color: white;
   font-style: bold;
 }

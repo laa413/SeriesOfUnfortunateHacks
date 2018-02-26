@@ -22,7 +22,8 @@ class App extends Component {
           <div>
             <img src={logo} className="App-logo" alt="logo" />
           </div>
-          {this.state.start == false ?
+        </div>
+        {this.state.start == false ?
             <div>
               <h1 className="App-title">Welcome to a Series of Unfortunate Events</h1>
               <h1 className="App-title">HackTCNJ Edition</h1>
@@ -31,7 +32,6 @@ class App extends Component {
             :
             <Story />
           }
-        </div>
       </div>
 
     );
